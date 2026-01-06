@@ -5,7 +5,7 @@ import pandas as pd
 # ============================
 # 1. CSV 読み込み
 # ============================
-df = pd.read_csv("pfr_CH4_O2_Ar_mdot.csv")
+df = pd.read_csv("pfr_two_stage_CH4.csv")
 
 x = df["Distance (m)"]
 T = df["T (K)"]
