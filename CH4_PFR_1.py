@@ -8,10 +8,10 @@ p = ct.one_atm          # 圧力 [Pa]
 Tin = 1500.0            # 入口温度 [K]
 comp = 'CH4:1, O2:1, AR:0.5'  # 入口組成（モル比）
 
-vin = 0.005             # 入口流速 [m/s]
-length = 5.0e-6         # 反応器全長 [m]
-area = 1.0e-4           # 断面積 [m^2]
-n_reactor = 200         # 分割セル数
+vin = 30                # 入口流速 [m/s]
+length = 0.36           # 反応器全長 [m]
+area = 9.07e-4           # 断面積 [m^2]
+n_reactor = 1000         # 分割セル数
 
 # ============================
 # 2. Gas & mass flow settings
