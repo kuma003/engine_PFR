@@ -181,3 +181,5 @@ cython_debug/
 
 /csvs
 /results
+
+.csv
